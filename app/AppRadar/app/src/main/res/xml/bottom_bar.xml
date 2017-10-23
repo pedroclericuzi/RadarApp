@@ -1,0 +1,14 @@
+<tabs>
+    <tab
+        id="@+id/frag_radar"
+        icon="@drawable/ic_location_searching_black_24dp"
+        title="Radar" />
+    <tab
+        id="@+id/frag_lista"
+        icon="@drawable/ic_format_list_bulleted_black_24dp"
+        title="Lista" />
+    <tab
+        id="@+id/frag_perfil"
+        icon="@drawable/ic_account_circle_black_24dp"
+        title="Perfil" />
+</tabs>

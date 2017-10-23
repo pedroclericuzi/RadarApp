@@ -1,0 +1,20 @@
+Suponha uma fila de banco que utilize a idade e o tempo de chegada como prioridade de atendimento.
+A cada chamada de cliente, é respeitado a ordem do cliente mais velho como preferencial. Para
+clientes com a mesma idade, será levado em consideração a ordem de chegada. Ou seja, se dois
+clientes com a mesma idade chegarem em momentos diferentes, a chamada deverá respeitar a ordem
+do cliente que chegou primeiro.
+Implemente um algoritmo que insira em uma estrutura de dados um objeto com o nome, idade e tempo
+de chegada do cliente. A cada chegada de novo cliente para atendimento, o algoritmo deve permitir a
+inserção de um novo cliente, e a cada remoção do cliente da estrutura de dados, o algoritmo deve
+respeitar a ordem de prioridade: maior idade e menor tempo de chegada.
+Ex.:
+// Chegada de clientes
+algorithm.insert(new Customer(“João”, 22));
+algorithm.insert(new Customer(“Maria”, 30));
+algorithm.insert(new Customer(“José”, 25));
+algorithm.insert(new Customer(“Alice”, 22));
+// Chamada dos clientes
+algorithm.remove() // Deve retornar Maria, 30
+algorithm.remove() // Deve retornar José, 25
+algorithm.remove() // Deve retornar João, 22
+algorithm.remove() // Deve retornar Alice, 22

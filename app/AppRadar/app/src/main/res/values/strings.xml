@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppRadar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="facebook_app_id">1976345779305886</string>
+    <string name="places_api_id">AIzaSyD6-wfuz3IJgo8xhP8uF9KU3Ht2QAuGO4A</string>
+    <string name="action_settings">Settings</string>
+</resources>
