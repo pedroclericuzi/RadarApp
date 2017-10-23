@@ -29,13 +29,18 @@ public class index {
 			int continua = in.nextInt();
 			if(continua==2){
 				rodando = false;
+				System.out.println("============FIM============");
 			} else {
+				System.out.println("==========================");
 				for (int i = 0; i < listCustomer.size(); i++) {
 					String nome = listCustomer.get(i).getNome();
 					int idade = listCustomer.get(i).getIdade();
 					System.out.println(nome +", "+idade+" anos");
 				}
 			}
+			
+			
+			
 		}
 		
 		
