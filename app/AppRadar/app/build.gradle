@@ -10,7 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        multiDexEnabled = true
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -34,7 +34,6 @@ dependencies {
     compile 'com.facebook.android:facebook-login:4.27.0'
     compile 'com.roughike:bottom-bar:2.3.1'
     compile 'com.android.support:multidex:1.0.1'
-    compile 'com.google.android.gms:play-services:11.0.0'
 }
 
 configurations.all {
@@ -47,3 +46,4 @@ configurations.all {
         }
     }
 }
+

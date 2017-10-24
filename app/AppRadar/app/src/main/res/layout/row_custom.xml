@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nomeLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Nome do item"
+        android:textColor="@color/bb_darkBackgroundColor" />
+
+    <TextView
+        android:id="@+id/enderecoLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Rua Prof. José Candido Pessoa"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/cepLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="CEP: 53030-020"
+        android:textColor="@color/com_facebook_button_background_color_focused_disabled"
+        android:textSize="11sp" />
+</LinearLayout>

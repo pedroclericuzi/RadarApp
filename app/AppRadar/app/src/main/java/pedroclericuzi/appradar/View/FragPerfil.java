@@ -30,7 +30,7 @@ public class FragPerfil extends Fragment {
         Profile profile = Profile.getCurrentProfile();
         fb_img_user = (ImageView) v.findViewById(R.id.fb_img_user);
         fb_nome_user = (TextView) v.findViewById(R.id.fb_nome_user);
-        String url = profile.getProfilePictureUri(100, 100).toString();
+        String url = profile.getProfilePictureUri(200, 200).toString();
         String nome = profile.getName();
         new AsyncImagem(fb_img_user).execute(url);
         fb_nome_user.setText(nome);
